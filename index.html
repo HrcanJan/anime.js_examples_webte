@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Vsetko prevzate z w3schools -->
+	<head>
+		<meta charset = "utf-8">
+		<title>Zapocet</title>
+		<link rel = "stylesheet" href = "css/style.css">
+	</head>
+	<body>
+		<section>
+			<label for="dot1"><input id="dot1" type="radio" name="answer" onclick="optionBox();" checked>Project 1</label>
+						
+			<label for="dot2"><input id= "dot2" type="radio" name="answer" onclick="optionBox();">Project 2</label>
+
+			<label for="dot3"><input id= "dot3" type="radio" name="answer" onclick="optionBox();">Project 3</label>
+			<div id="first">
+				<h1>Interactive Menu</h1>
+				<div class="nav">
+					<div class="menu" onclick="displayMenu()">
+						<div class="dash"></div>
+						<div class="dash"></div>
+						<div class="dash"></div>
+					</div>
+					<ul class="nav_links2">
+						<li><a href="https://webte1.fei.stuba.sk/~xhrcan/IGBT/">Home</a> </li>
+						<li><a href="https://webte1.fei.stuba.sk/~xhrcan/IGBT/work">How it works</a></li>
+						<li><a href="https://webte1.fei.stuba.sk/~xhrcan/IGBT/history">History</a> </li>
+						<li><a href="https://webte1.fei.stuba.sk/~xhrcan/IGBT/apps">Its' applications</a> </li>
+						<li><a href="https://webte1.fei.stuba.sk/~xhrcan/IGBT/pros_cons">Pros / Cons</a></li>
+						<li><a href="https://webte1.fei.stuba.sk/~xhrcan/IGBT/main_part">Main working part</a></li>
+						<li><a href="https://webte1.fei.stuba.sk/~xhrcan/IGBT/faq">FAQ</a> </li>
+					</ul>
+				</div>
+			</div>
+			<div id="second">
+				<h1 id="secondH1">Daytime</h1>
+				<svg 
+				id = "lightMode" 
+				width="105" 
+				height="105" 
+				viewBox="0 0 55 55" 
+				fill="none" 
+				xmlns="http://www.w3.org/2000/svg">
+					<path class="sun" d="M55 27.5C55 42.6878 42.6878 55 27.5 55C12.3122 55 0 42.6878 0 27.5C0 12.3122 12.3122 0 27.5 0C42.6878 0 55 12.3122 55 27.5Z" fill="#E9A801"/>
+				</svg>							
+			</div>
+			<div id="third">
+				<h1>Path</h1>
+				<img class="electron" src="img/electron.png" alt="electron" width="30" height="30">
+				<img class="electron" src="img/electron.png" alt="electron" width="30" height="30">
+				<img class="electron" src="img/electron.png" alt="electron" width="30" height="30">
+				<img class="electron" src="img/electron.png" alt="electron" width="30" height="30">
+				<img class="electron" src="img/electron.png" alt="electron" width="30" height="30">
+				<svg id="svgLine" width="21" height="302" viewBox="0 0 21 302" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path id="pathLine" d="M9.35912 301C8.1852 229.235 21.0984 253.941 19.9245 216.294C18.7505 178.647 -4.72797 181 2.31558 149.235C9.35912 117.471 19.9245 117.471 19.9245 96.2941C19.9245 75.1177 2.31558 64.5294 2.31558 56.2941C2.31558 49.7059 7.01127 16.6863 9.35912 1" stroke="black"/>
+				</svg>	
+			</div>
+		</section>
+		<script src = "js/anime.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

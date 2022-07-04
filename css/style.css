@@ -1,0 +1,166 @@
+body{
+	background: rgb(166,52,27);
+	background: linear-gradient(180deg, rgba(166,52,27,1) 0%, rgba(199,200,196,1) 69%, rgba(209,191,145,1) 100%);
+	color: black;
+	font-size: 24px;
+	height: 100%;
+	margin: 0px;
+	height: 150vh;
+    overflow: hidden;
+}
+
+h1{
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+}
+
+img{
+    float: left;
+    margin: 10px 12px 4px; 
+}
+
+a, button {
+	font-weight: 500;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a:hover {
+	color: aqua;
+}
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(0, 136, 169, 1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(0, 136, 169, 0.8);
+}
+
+section {
+    padding: 15px;
+    margin: 15px;
+	background-color: #F9C743;
+	border-radius: 10px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+#first{
+	display: block;
+	background-color: #D1BF91;
+	height: 500px;
+	border-radius: 5px;
+}
+
+#second {
+	margin-top: 20px;
+	height: 500px;
+	display: none;
+	background-color: rgb(220, 255, 191);
+	border-radius: 5px;
+	padding-bottom: 15px;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+svg{
+	cursor: pointer;
+}
+
+#third{
+	height: 500px;
+	display: none;
+	background-color: #D1BF91;
+	border-radius: 5px;
+	padding-bottom: 15px;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+	border-color: #d9d9d9;
+	background: #9b59b6;
+}
+
+label{
+	padding: 20px;
+}
+
+form input[type="radio"]{
+	display: none;
+}
+
+.nav {
+	background-color: #60371E;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+.menu{
+	width: 52px;
+	height: 52px;
+	position: absolute;
+	margin-left: 75%;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.menu:hover {
+	background-color:rgb(188, 172, 231);
+}
+
+.dash{
+	position: relative;
+	top: 13px;
+	left: 6px;
+	width: 40px;
+	height: 4px;
+	background-color: #010114;
+	border-radius: 10px;
+	margin-bottom: 9px;
+}
+
+.nav_links2 li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links2 li a:hover {
+	color: aqua;
+}
+
+.electron {
+	position: absolute;
+	margin-left: 50%;
+	left: -21px;
+	top: 40px;
+}
+
+#svgLine {
+	margin-left: 50%;
+}
